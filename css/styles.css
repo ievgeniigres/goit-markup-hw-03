@@ -7,14 +7,7 @@
 /* акцент #2196F3 */
 /* белый #fffff */
 
-.logo_web{
-font-family: 'Raleway', sans-serif;
-font-weight: bold;
-font-size: 26px;
-line-height:1.192;
-letter-spacing: 0.03em;
-color: #2196F3;
-}
+
 
 ul{
     list-style: none;
@@ -22,6 +15,54 @@ ul{
 
 a:-webkit-any-link {
     text-decoration: none;
+    }
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+img{
+    display: block;
+}
+/*======header========*/
+.header{
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation_menu{
+    display: flex;
+}
+.address{
+    display: flex;
+}
+.logo_web{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height:1.192;
+    letter-spacing: 0.03em;
+    color: #2196F3;
     }
 
 .logo_studio{
@@ -75,7 +116,7 @@ color: #757575;
 .contact_tel{
     text-decoration: none; 
 }
-
+/*=========hero==========*/
 .hero_title{
 font-family: "Roboto", sans-serif;
 font-style: normal;
@@ -99,7 +140,8 @@ text-align: center;
 letter-spacing: 0.06em;
 background: #2196F3;
 color: #FFFFFF;
- }    
+ }  
+ /*======features=======*/  
 .item{
 font-family: "Roboto", sans-serif;
 font-weight: bold;
@@ -117,6 +159,7 @@ letter-spacing: 0.03em;
 color: #757575;
     
 }
+/*=======what we are doing======*/
 .our_job{
 font-family: "Roboto", sans-serif;
 font-weight: bold;
@@ -127,6 +170,7 @@ letter-spacing: 0.03em;
 color: #212121;
     
  }
+ /*=========our team=========*/
 .our_team{
 font-family: "Roboto", sans-serif;
 font-weight: bold;
@@ -217,6 +261,7 @@ letter-spacing: 0.03em;
 
 color: #757575;    
 }
+/*=====contacts information=========*/
 .footer_web{
 font-family: 'Raleway', sans-serif;
 font-weight: bold;
