@@ -1,3 +1,11 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
 .body{
     color: #E5E5E5;
 }
@@ -42,15 +50,18 @@ img{
     display: block;
 }
 /*======header========*/
-.header .container{
+.header {
     display: flex;
     align-items: center;
-    width: 1600px;
-    height: 80px;
+    background: rgb(161, 128, 122);
+    width: 1230px;
 }
-.navigation{
+
+.header .navigation{
     display: flex;
     align-items: center;
+    width: 1230px;
+    margin: 0 auto;
 }
 .navigation_menu{
     display: flex;
@@ -71,12 +82,7 @@ img{
 .header .address{
     margin-left: auto;
 }
-.header .contacts{
-    display: flex;
-}
-.contacts .contact_mail{
-margin-left: 50px;
-}
+
 
 .logo_web{
     font-family: 'Raleway', sans-serif;
@@ -119,6 +125,8 @@ color: #2196f3;
 .address{
 font-style: normal;
 }
+
+
 .contact_mail,
 .contact_tel{
 font-family: "Roboto", sans-serif;
@@ -139,19 +147,16 @@ color: #757575;
 .contact_mail,
 .contact_tel{
     text-decoration: none; 
-    
 }
-.container{
-    width: 1600px;
-    margin: 0 auto;
+.contacts{
+    display: flex;
+    align-items: center;
 }
-.contact_tel{
-    margin-right:215px;
-}
+
 /*=========hero==========*/
 .hero{
     background: #2F303A;
-    width: 1600px;
+    width: 1230px;
     height: 600px;
 }
 .hero .hero_title{
