@@ -50,39 +50,23 @@ img{
     display: block;
 }
 /*======header========*/
-.header {
+.navigation{
+    justify-content: space-between;
     display: flex;
     align-items: center;
-    background: rgb(161, 128, 122);
-    width: 1230px;
+}
+.container_main{
+background: #ECECEC;
+display: flex;
+align-items: center;
+    
 }
 
 .header .navigation{
-    display: flex;
-    align-items: center;
-    width: 1230px;
+    width:1200px;
     margin: 0 auto;
-}
-.navigation_menu{
-    display: flex;
-}
-.logo_studio{
-    margin-right: 93px;
-}
-.navigation_menu_item{
-    margin-right: 50px;
-}
-.navigation_menu_item:last-child{
-    margin-right: 0;
-}
-.navigation_menu_link{
-    display: block;
-    
-}
-.header .address{
-    margin-left: auto;
-}
 
+}
 
 .logo_web{
     font-family: 'Raleway', sans-serif;
@@ -91,7 +75,7 @@ img{
     line-height:1.192;
     letter-spacing: 0.03em;
     color: #2196F3;
-    margin-left: 215px;
+    
     }
 
 
@@ -101,32 +85,44 @@ font-weight: bold;
 font-size: 26px;
 line-height:1.192;
 letter-spacing: 0.03em;
-color: #030303;   
+color: #030303; 
+}
+
+.navigation_menu{
+    display: flex;
+    align-items: center;
+}
+.navigation_menu .navigation_menu_item + .navigation_menu_item{
+    margin-right: 50px;
+}
+.navigation_menu li{
+    outline: 1px solid rebeccapurple;
+    margin-right: 50px;
 }
 
 
-.navigation_menu_link {
+.navigation_menu_link{
+display: block;
+padding-top: 32px;  
+padding-bottom: 32px;  
+
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.142;
 letter-spacing: 0.02em;
 color: #212121;
+text-decoration: none;
 }
 .navigation_menu_link:hover,
 .navigation_menu_link:focus
  {
 color: #2196f3;
 }
-.navigation_menu_link{
-    text-decoration: none;
-}
 
 .address{
 font-style: normal;
 }
-
-
 .contact_mail,
 .contact_tel{
 font-family: "Roboto", sans-serif;
@@ -135,6 +131,7 @@ font-size: 14px;
 line-height: 1.142;
 letter-spacing: 0.02em;
 color: #757575;
+text-decoration: none; 
 }
 .contact_tel:hover,
 .contact_tel:focus{
@@ -143,11 +140,9 @@ color: #757575;
 .contact_mail:hover,
 .contact_mail:focus{
     color: #2196F3;}
-    
-.contact_mail,
-.contact_tel{
-    text-decoration: none; 
-}
+.contacts .item + .item{
+    margin-left: 50px;
+}    
 .contacts{
     display: flex;
     align-items: center;
@@ -156,7 +151,7 @@ color: #757575;
 /*=========hero==========*/
 .hero{
     background: #2F303A;
-    width: 1230px;
+    width: 1200px;
     height: 600px;
 }
 .hero .hero_title{
