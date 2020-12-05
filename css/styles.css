@@ -150,6 +150,7 @@ margin-right: 50px;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
+    font-style: normal;
     line-height:1.14;
     letter-spacing: 0.02em;
 }
@@ -405,6 +406,7 @@ margin-right: 50px;
 }
 
 .footer_contact .contact{
+    display: flex;
     color: rgba(255, 255, 255, 0.6); 
     font-style: normal;
     font-size: 14px;
@@ -415,99 +417,5 @@ margin-right: 50px;
 .footer_contact .contact:not(:last-child){
     margin-bottom: 9px;
 }
-
-/*.container_main{
-background: #ECECEC;
-display: flex;
-align-items: center;
-    
-}
-
-.header .navigation{
-    width:1200px;
-    margin: 0 auto;
-
-}
-
-.logo_webstudio{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 26px;
-    line-height:1.192;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-    
-    }
-
-
-.logo_studio{
-font-family: 'Raleway', sans-serif;
-font-weight: bold;
-font-size: 26px;
-line-height:1.192;
-letter-spacing: 0.03em;
-color: #030303; 
-}
-
-.navigation_menu{
-    display: flex;
-    align-items: center;
-}
-.navigation_menu .navigation_menu_item + .navigation_menu_item{
-    margin-right: 50px;
-}
-.navigation_menu li{
-    outline: 1px solid rebeccapurple;
-    margin-right: 50px;
-}
-
-
-.navigation_menu_link{
-display: block;
-padding-top: 32px;  
-padding-bottom: 32px;  
-
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.142;
-letter-spacing: 0.02em;
-color: #212121;
-text-decoration: none;
-}
-.navigation_menu_link:hover,
-.navigation_menu_link:focus
- {
-color: #2196f3;
-}
-
-.address{
-font-style: normal;
-}
-.contact_mail,
-.contact_tel{
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.142;
-letter-spacing: 0.02em;
-color: #757575;
-text-decoration: none; 
-}
-.contact_tel:hover,
-.contact_tel:focus{
-    color: #2196F3;
-}
-.contact_mail:hover,
-.contact_mail:focus{
-    color: #2196F3;}
-.contacts .item + .item{
-    margin-left: 50px;
-}    
-.contacts{
-    display: flex;
-    align-items: center;
-}
-*/
 
 
