@@ -35,7 +35,7 @@ body{
 }
 img{
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .container{
@@ -348,6 +348,8 @@ margin-right: 50px;
 .work_list .item{
     flex-basis: calc(100% / 3 - 30px);
     margin: 15px;
+    
+    
 }
 
 .work_list .title{
